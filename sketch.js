@@ -3,11 +3,11 @@
 // mouse move to the right -> rotate closewise
 
 // declarations
-const gap = 15;
+const gap = 10;
 const cirNum = 40;
-const cirSize = 25;
+const cirSize = 20;
 const numOfPoints = 100;
-const rectSize = 700;
+const rectSize = 500;
 
 let angle = 0;
 
@@ -50,17 +50,17 @@ function draw() {
 	// TITLE & SUBTITLE
 	push();
 	// set position
-	translate(width / 2, height - 175);
+	translate(width / 2, height - 150);
 	// set font details
 	noStroke();
 	textFont("Poppins");
 	textAlign(CENTER, CENTER);
 	fill("#F1F1F1");
 	// title
-	textSize(40);
+	textSize(36);
 	text("HYPERDRIVE", 0, 0);
 	// subtitle
-	textSize(16);
+	textSize(14);
 	text(
 		"Problem:  This universe doesn't seem to allow faster-than-light travel.",
 		0,
